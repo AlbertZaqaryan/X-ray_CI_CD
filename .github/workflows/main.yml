@@ -53,6 +53,7 @@ jobs:
           # 3. Pull latest changes
           echo "⬇️ Pull latest code..."
           git pull origin main
+          cd /home/ubuntu/X-ray_CI_CD/core
 
           # 4. Stop and remove old container
           echo "🧹 Cleaning old containers..."
